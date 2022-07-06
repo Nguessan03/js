@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASPRIPT</title>
+</head>
+<body>
+    <h1>SOMMAIRE</h1>
+    <ul>
+        <li><em>introduction</em></li>
+     <li><em>qu'est ce que javascript</em></li>
+     <li><em> pourquoi javasript?</em></li>
+     <li><em></em>c'est quoi un moteur?</li>
+     <li><em>fonctionnement d'un moteur exemple: v8</em></li>
+     <li><em>qu'est ce que javacript ne peut pas faire?</em></li>
+     <li><em>Qu'est-ce qui rend JavaScript spécial ?</em></li>
+     <li><em>conclusion</em></li>
+    
+</ul>
+<p>Voyons ce qu'il y a de si spécial avec JavaScript, ce qu'il est possible de réaliser avec lui et quelles autres technologies sont bonnes avec lui.</p>
+<h2>I-QU'EST CE QUE JAVASCRIPT?</h2>
+<p>JavaScript a été créé à l'origine pour "rendre les pages Web vivantes".
+    Les programmes dans ce langage sont appelés scripts. Ils peuvent être intégrés dans HTML et s'exécuter automatiquement lorsque la page Web est chargée.
+    Les scripts sont distribués et exécutés en texte brut. Ils n'ont pas besoin de préparation spéciale ou de compilation pour fonctionner.
+    Cela distingue JavaScript d'un autre langage - Java</p>
+<h2>II-POURQUOI JAVASCRIPT?</h2>
+<p>Lorsque JavaScript a été créé, il avait un nom différent - "LiveScript". Cependant, le langage Java était très populaire à l'époque et il a été décidé que le positionnement de JavaScript comme "petit frère" de Java serait utile.
+    Au fil du temps, JavaScript est devenu un langage complètement indépendant avec sa propre spécification, appelée ECMAScript, et n'a plus rien à voir avec Java.
+    Aujourd'hui, JavaScript peut être exécuté non seulement dans le navigateur, mais également sur un serveur ou sur tout autre appareil doté d'un programme spécial appelé "moteur" JavaScript.
+    Le navigateur possède son propre moteur, parfois appelé "JavaScript Virtual Machine".Ces noms sont utiles à connaître car ils sont souvent utilisés dans les articles des développeurs. Nous les utiliserons aussi. Par exemple, si "la fonctionnalité X est prise en charge par V8", alors "X" fonctionne très probablement dans Chrome et Opera.</p>
+
+<h2>EXEMPLE DE FONCTIONNEMENT DE MOTEUR : LE V8</h2>
+<ol>
+    <li>Recevez le code JavaScript sous forme de flux d’octets UTF-16 et transmettez-le sur un décodeur d’écoulement d’octet (qui fait partie du moteur) .</li>
+<li>Parsear (transformer) le code et le décomposez-le dans les jetons (les jetons sont des éléments JS tels que: Let, nouveaux, symboles d’opérations, fonctions, promesses).</li>
+<li>Merci à L’analyse précédente, une structure d’arborescence est générée sous la forme d’une arborescence ou de syntaxe abstraite (AST). V8 a deux types de pauses que vous verrez ci-dessous.</li>
+<li>L’interprète exécute l’AST et génère le bytecode.</li>
+<li>L’interprète exécute l’AST et génère le bytecode.</li>
+</ol>
+
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--jXSOzfke--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ycl5kp4ep53ggky5h3p3.png"/>
+<h2>QU'EST CE QUE JAVASCRIPT NE PEUT PAS FAIRE?</h2>
+<P>JavaScript est la seule technologie de navigateur qui combine ces trois choses.
+C'est ce qui rend JavaScript spécial. C'est pourquoi c'est l'outil le plus courant pour créer des interfaces dans le navigateur.
+    Bien que, bien sûr, JavaScript vous permette de créer des applications non seulement dans les navigateurs, mais également sur le serveur, sur les appareils mobiles, etc.
+    Langues "ci-dessus" JavaScript
+    La syntaxe JavaScript ne convient pas à tous les besoins. Différentes personnes veulent différentes opportunités.
+    C'est naturel, car les projets sont différents et leurs exigences sont également différentes.
+    Ainsi, récemment, de nombreux nouveaux langages ont été transpilés (convertis) en JavaScript avant de s'exécuter dans le navigateur.
+    Les outils modernes rendent la transpilation très rapide et transparente, permettant ainsi aux développeurs d'écrire du code dans un autre langage, le convertissant automatiquement en JavaScript sous le capot.
+   
+    Exemples de ces langues :
+    CoffeeScript ajoute du sucre syntaxique à JavaScript. Il introduit une syntaxe plus courte qui vous permet d'écrire du code propre et concis. C'est généralement ce que les programmeurs Ruby aiment.
+    TypeScript se concentre sur l'ajout d'un « typage fort » pour simplifier le développement et maintenir des systèmes volumineux et complexes. Développé par Microsoft.
+    Flow ajoute également la saisie, mais d'une manière différente. Développé par Facebook.
+    Dart se démarque car il possède son propre moteur qui fonctionne en dehors du navigateur (par exemple, dans les applications mobiles). Il a été proposé à l'origine par Google en remplacement de JavaScript, mais pour le moment, il doit être transpilé pour fonctionner de la même manière que pour les langages ci-dessus.
+    Brython transpile Python en JavaScript, vous permettant d'écrire des applications Python pures sans JavaScript.
+    Il y en a d'autres. Mais même si nous utilisons l'un de ces langages, nous devons connaître JavaScript pour vraiment comprendre ce que nous faisons.</P>
+
+    <h2>CONCLUSION</h2>
+<p></p>
+JavaScript a été créé à l'origine uniquement pour le navigateur, mais il est maintenant utilisé sur de nombreuses autres plates-formes.
+Aujourd'hui, JavaScript occupe une position unique en tant que langage de navigateur le plus largement utilisé, avec une intégration complète avec HTML/CSS.
+De nombreux langages peuvent être "transpilés" en JavaScript pour apporter des fonctionnalités supplémentaires. Il est recommandé de les revoir au moins brièvement après avoir maîtrisé JavaScript.
+
+<h2>DEMO</h2>
+<video width="320" height="240" controls>
+    <source src="https://youtu.be/FQds9c5A0Fw" type="video/mp4">
+  </video>
+
+
+</body>
+</html>
